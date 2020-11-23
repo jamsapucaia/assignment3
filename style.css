@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    padding: 15px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar a {
+    float: left;
+    color: rgb(54, 111, 197);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+  
+.navbar a.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+  
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.navbar a.active {
+    background-color: rgb(54, 111, 197);
+    color: white;
+}
+  
+.navbar-right {
+    float: right;
+}
+  
+header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: rgb(54, 111, 197);
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(128, 173, 240, 0.281);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.section1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: rgb(54, 111, 197);
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(59, 78, 105, 0.281);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.section2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: rgb(54, 111, 197);
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(59, 78, 105, 0.144);
+    margin-bottom: 90px;
+    border-radius: 5px;
+}
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(27, 69, 133);
+    width: 90%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+li { padding: 5px; margin-top: 9px; font-size: 22px; }
+
+.table-container {
+    background-image: url(1809bg.gif);
+    padding: 30px 0; 
+    margin-bottom: 60px; 
+    width: 100%;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 7px;  
+    border-style: outset;
+    border-spacing: none;
+}
+
+.caption {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #653232;
+    padding: 20px;
+}
+
+th, td {
+    border-width: 2px;  
+    border-style: inset;
+    padding: none;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+td {
+    background-color: white;
+    font-size: 18pt;
+    color: #653232;
+}
+
+thead {
+    background-color: #fefe00;
+    font-size: 18pt;
+    color: #653232;
+}
+
+.men {
+    background-color: #98cbfe;
+    vertical-align: top;
+    text-align: left;
+}
+
+.women {
+    background-color: #98fe98;
+    vertical-align: top;
+    text-align: left;
+}
+
+.time {
+    text-align: right;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    height: 45px;
+}
+
+.footertext {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

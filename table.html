@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Table exercise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo">Jose Augusto Miglioranci Sapucaia</a>
+        <div class="navbar-right">
+          <a href="index.html">HOME</a>
+          <a href="topics.html">TOPICS</a>
+          <a class="active" href="table.html">TABLE</a>
+        </div>
+    </div>
+
+    <header>
+        <h1>Assignment #3 - Table</h1>
+        <p>Requirements:</p>
+        <ul>
+            <li>Table must use 90% of the width of the web browser window.</li>
+            <li>Stay in the middle horizontally.</li>
+            <li>Colour background on the cell must be reasonably close enouth to the original.</li>
+            <li>Use the provided background pattern file.</li>
+            <li>Data must be properly align.</li>
+        </ul>
+    </header>
+
+    <div class="table-container">
+            <table cellspacing="0">
+                <caption class="caption">Race Results</caption>
+                <thead>
+                    <th colspan="2">Runner</th>
+                    <th>Time</th>
+                    <th>Origin</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4" class="men">Men</td>
+                    </tr>
+                    <tr>  
+                        <td>1. Peter Teagan</td>
+                        <td class="time">2:12:34</td>
+                        <td>San Antonio, Texas</td>
+                    </tr>
+                    <tr>  
+                        <td>2. Kyle Teagan</td>
+                        <td class="time">2:13:05</td>
+                        <td>Billings, Montana</td>
+                    </tr>
+                    <tr>  
+                        <td>3. Jason Wu</td>
+                        <td class="time">2:14:28</td>
+                        <td>Cutler, Colorado</td>
+                    </tr>
+            
+                    <tr>
+                        <td rowspan="4" class="women">Women</td>
+                    </tr>
+                    <tr>  
+                        <td>1. Laura Blake</td>
+                        <td class="time">2:28:21</td>
+                        <td>Park City, Colorado</td>
+                    </tr>
+                    <tr>  
+                        <td>2. Kathy Lasker</td>
+                        <td class="time">2:30:11</td>
+                        <td>Chicago, Illinois</td>
+                    </tr>
+                    <tr>  
+                        <td>3. Lisa Peterson</td>
+                        <td class="time">2:31:14</td>
+                        <td>Seattle, Washington</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+    </div>
+    
+
+    <footer>
+        <img src="footer.jpg">
+        <p class="footertext">Copyright &copy; 2020 Augusto Miglioranci</p>
+    </footer>
+
+</body>
+</html>
